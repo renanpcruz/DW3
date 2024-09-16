@@ -1,0 +1,9 @@
+### teste de API helloUser
+POST http://localhost:40000/calcular HTTP/1.1
+content-type: application/json
+
+{
+    "num1": 10,
+    "num2": 20,
+    "operacao": "-"
+}
